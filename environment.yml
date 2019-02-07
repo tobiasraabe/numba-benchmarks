@@ -1,0 +1,10 @@
+name: nb
+channels:
+  - defaults
+  - pscondaenvs
+dependencies:
+  - pscondaenvs=1.2.4
+  - python=3.7
+  - numba=0.42.0
+  - pip:
+    - perfplot==0.5.0
