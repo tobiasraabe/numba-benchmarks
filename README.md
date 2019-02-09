@@ -7,7 +7,7 @@ Numba Benchmarks
 This repository contains benchmarks for code examples optimized with Numba. All
 results can be reproduced online in a Binder notebook.
 
-> The objective is here solely speed.
+> The objective is solely speed.
 >
 > ...
 >
