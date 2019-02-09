@@ -7,13 +7,11 @@ Numba Benchmarks
 This repository contains benchmarks for code examples optimized with Numba. All
 results can be reproduced online in a Binder notebook.
 
-The objectives are prioritized in the following order:
-
-1. Speed
-.
-.
-.
-n. Readibility
+> The objective is here solely speed.
+>
+> ...
+>
+> Who said readibility? No, that is not what this is about!
 
 Examples
 --------
@@ -24,11 +22,11 @@ Examples
 Helper Functions
 ----------------
 
-These functions are replacements or convenience wrapper for Numpy functions
+These functions are replacements or convenience wrappers for Numpy functions
 which are currently not supported by Numba.
 
-- [np.clip](numpy-replacements/clip.py): Will be fixed in
+- [np.clip](numpy-replacements/clip.py): Will be implemented in
   https://github.com/numba/numba/pull/3468.
 - [np.count_nonzero](numpy-replacements/count-nonzero.py)
-- [np.triu_indices, tril_indices, tri_n,
-  tri_n_with_diag](numpy-replacements/triangle-indexing.py)
+- [np.triu_indices, np.tril_indices, tri_n,
+  tri_n_with_diag](numpy-replacements/triangle.py)
