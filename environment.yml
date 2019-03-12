@@ -7,6 +7,6 @@ dependencies:
   - python=3.7
   - numba=0.42.0
   - pip:
-    - flake8==3.7.5
+    - flake8==3.7.7
     - perfplot==0.5.0
-    - pre-commit==1.14.3
+    - pre-commit==1.14.4
