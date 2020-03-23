@@ -9,4 +9,4 @@ dependencies:
   - pip:
     - flake8==3.7.9
     - perfplot==0.7.3
-    - pre-commit==1.14.4
+    - pre-commit==2.2.0
